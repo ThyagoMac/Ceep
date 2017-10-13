@@ -1,0 +1,48 @@
+body {
+    background: #e8e8e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cartao--some {
+    opacity: 0;
+    transition: 0.2s ease-in;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+#mudaLayout {
+    display: none;
+}
+
+@media (min-width: 560px) {
+    #mudaLayout {
+        display: inline-block;
+    }
+}
+
+#rangeID1 {
+    background-color: #f90;
+    width: 100px;
+}
+
+/*.mural {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.mural--linhas {
+    flex-direction: column;
+}
+
+.mural--linhas .cartao {
+    flex-basis: auto;
+    width: auto;
+    display: block;
+}*/
